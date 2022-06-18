@@ -28,7 +28,7 @@ app.all("*", (request, response) => {
 });
 
 // set port, listen for requests
-const PORT = 6000;
+const PORT = 6001;
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

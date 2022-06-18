@@ -1,0 +1,65 @@
+[
+  {
+    "originalArray": [
+      "a",
+      "d",
+      "e",
+      "s"
+    ],
+    "key": "d",
+    "keyIndexInOriginalArray": 0,
+    "sortedArray": [
+      "a",
+      "d",
+      "e",
+      "s"
+    ],
+    "keyIndexInSortedArray": 1
+  },
+  {
+    "originalArray": [
+      1,
+      3,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "key": 7,
+    "keyIndexInOriginalArray": 3,
+    "sortedArray": [
+      1,
+      3,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "keyIndexInSortedArray": 4
+  },
+  {
+    "originalArray": [
+      1,
+      3,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "key": 3,
+    "keyIndexInOriginalArray": 2,
+    "sortedArray": [
+      1,
+      3,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "keyIndexInSortedArray": 1
+  }
+]

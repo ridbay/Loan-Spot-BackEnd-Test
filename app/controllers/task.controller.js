@@ -3,6 +3,7 @@ const path = require("path");
 
 exports.task = async (request, response) => {
   const { array, key } = request.body;
+
   const originalArray = array;
   const startTime = process.hrtime();
   if (array.length < 1) {
@@ -44,7 +45,9 @@ exports.task = async (request, response) => {
         timetaken: `${notFoundElapsedSeconds} miliseconds`,
       });
     }
-    const sortedArray = array.sort((a, b) => a - b);
+    const sortedArray =
+      typeof array[0] == "number" ? array.sort((a, b) => a - b) : array.sort();
+
     const sortedArrayElapsedSeconds = parseHrtimeToSeconds(
       process.hrtime(startTime)
     );

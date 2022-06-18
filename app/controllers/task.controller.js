@@ -23,7 +23,7 @@ exports.task = async (request, response) => {
           process.hrtime(startTime)
         );
         return response.status(200).json({
-          message: "data already exist",
+          message: "Data already exist",
           // data: searchkey,
           keyIndexInOriginalArray: searchkey.keyIndexInOriginalArray,
           keyIndexInSortedArray: searchkey.keyIndexInSortedArray,

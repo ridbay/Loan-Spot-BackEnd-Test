@@ -9,12 +9,46 @@
       6,
       7,
       8,
+      10,
       45,
       78,
       93
     ],
-    "key": 8,
-    "keyIndexInOriginalArray": 7,
+    "key": 10,
+    "keyIndexInOriginalArray": 6,
+    "sortedArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      45,
+      78,
+      93
+    ],
+    "keyIndexInSortedArray": 8
+  },
+  {
+    "originalArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      45,
+      53,
+      78,
+      93
+    ],
+    "key": 53,
+    "keyIndexInOriginalArray": 6,
     "sortedArray": [
       1,
       2,
@@ -25,9 +59,76 @@
       7,
       8,
       45,
+      53,
       78,
       93
     ],
-    "keyIndexInSortedArray": 7
+    "keyIndexInSortedArray": 9
+  },
+  {
+    "originalArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      14,
+      45,
+      78,
+      93
+    ],
+    "key": 14,
+    "keyIndexInOriginalArray": 6,
+    "sortedArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      14,
+      45,
+      78,
+      93
+    ],
+    "keyIndexInSortedArray": 8
+  },
+  {
+    "originalArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      45,
+      78,
+      93
+    ],
+    "key": 11,
+    "keyIndexInOriginalArray": 6,
+    "sortedArray": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      45,
+      78,
+      93
+    ],
+    "keyIndexInSortedArray": 8
   }
 ]
